@@ -11,6 +11,7 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Firebase CLI](http://firebase.google.com)
 
 ## Installation
 
@@ -34,12 +35,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `npm run build` (production)
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* `npm run deploy` (production)
 
 ## Further Reading / Useful Links
 
