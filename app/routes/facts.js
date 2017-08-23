@@ -3,18 +3,15 @@ import fetch from 'fetch';
 
 export default Ember.Route.extend({
     fastboot: Ember.inject.service(),
-    model() {
-        let shoebox = this.get('fastboot.shoebox');
-        let isFastBoot = this.get('fastboot.isFastBoot');
+    async model() {
+        const shoebox = this.get('fastboot.shoebox');
+        const isFastBoot = this.get('fastboot.isFastBoot');
         if (isFastBoot) {
-            let responseHeaders = this.get('fastboot.response.headers');
+            const responseHeaders = this.get('fastboot.response.headers');
             responseHeaders.set('Cache-Control', 'public, max-age=300, s-maxage=600');
-            return fetch("https://ember-ssr-j6q.firebaseio.com/facts.json").then(function(response) {
-                return response.json();
-            }).then(function(json) {
-                shoebox.put('facts', json);
-                return json;
-            });
+            const facts = await fetch("https://ember-ssr-j6q.firebaseio.com/facts.json").then(r => r.json());
+            await shoebox.put('facts', facts);
+            return facts;
         }
         return shoebox.retrieve('facts');
     }
