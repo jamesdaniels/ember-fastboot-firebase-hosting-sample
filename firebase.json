@@ -16,7 +16,7 @@
         "source": "/",
         "headers": [{
           "key": "Link",
-          "value": "</assets/vendor-22719269676451a5ba94c44fa37f0b5c.js>;rel=preload;as=script;nopush,</assets/ember-ssr-c62009fcc6f8bb20786fb665925d6d5b.js>;rel=preload;as=script;nopush,</assets/ember-ssr-2cb91ec4c0bfa268cea6c2fd827f33e9.css>;rel=preload;as=style;nopush"
+          "value": "</assets/vendor-22719269676451a5ba94c44fa37f0b5c.js>;rel=preload;as=script;nopush,</assets/ember-ssr-50cfaa5bdb9686f311482c09a62920c4.js>;rel=preload;as=script;nopush,</assets/ember-ssr-2cb91ec4c0bfa268cea6c2fd827f33e9.css>;rel=preload;as=style;nopush"
         }]
       }
     ]
