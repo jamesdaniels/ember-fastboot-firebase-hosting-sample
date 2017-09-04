@@ -5,7 +5,8 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    babel: {
+    origin: 'https://ember-ssr-j6q.firebaseapp.com/',
+    'ember-cli-babel': {
       includePolyfill: true
     }
   });

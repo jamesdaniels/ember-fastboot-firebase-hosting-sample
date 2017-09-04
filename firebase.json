@@ -10,13 +10,13 @@
         "source" : "**/*.@(css|js)",
         "headers" : [{
           "key" : "Cache-Control",
-          "value" : "public, max-age=31536000"
+          "value" : "public, max-age=365000000, immutable"
         }]
       }, {
         "source": "/",
         "headers": [{
           "key": "Link",
-          "value": "</assets/vendor-4c2d8311d02ad23875b4b5119be8edbd.js>;rel=preload;as=script;nopush,</assets/ember-ssr-86b4679bbb9f963f7fb32d7959a80bbf.js>;rel=preload;as=script;nopush,</assets/ember-ssr-2cb91ec4c0bfa268cea6c2fd827f33e9.css>;rel=preload;as=style;nopush"
+          "value": "</assets/vendor-647af91a889ab262c2b6f7c1abffcf2c.js>;rel=preload;as=script;nopush,</assets/ember-ssr-ec9bca114d39d029c73ccf07d1d12af2.js>;rel=preload;as=script;nopush,</assets/ember-ssr-5622db6d45b11609173571e9b42f8c3a.css>;rel=preload;as=style;nopush"
         }]
       }
     ]
