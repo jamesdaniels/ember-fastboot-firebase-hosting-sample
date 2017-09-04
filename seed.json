@@ -1,0 +1,28 @@
+{
+  "facts" : [ {
+    "private" : false,
+    "text" : "1 + 1 = 2"
+  }, {
+    "private" : false,
+    "text" : "Fish can swim."
+  }, {
+    "text" : "Yellow and blue make green."
+  }, {
+    "text" : "Water is hydrogen and oxygen."
+  }, {
+    "private" : false,
+    "text" : "HippopotomonstrosesquiPedaliophobia is the fear of long words."
+  }, {
+    "private" : false,
+    "text" : "Bananas are curved because they grow towards the sun."
+  }, {
+    "private" : false,
+    "text" : "The fourth of July is on July 4th."
+  }, {
+    "private" : false,
+    "text" : "Earth's atmosphere has oxygen in it. "
+  }, {
+    "private" : false,
+    "text" : "Facts are hard to come up with"
+  } ]
+}
